@@ -2274,7 +2274,7 @@ header{
       .mobile-account, .mobile-wishlist{
         position: fixed;
         bottom: 20px;
-        right: 38%;
+        right: 24%;
         font-size: 0;
         padding: 0;
         z-index: 9;
@@ -2356,7 +2356,7 @@ header{
           }
         }
         .mobile-cart {
-          right: 24%;
+          right: 42%;
           .close-circle {
             i {
               font-size: 14px;
@@ -2472,6 +2472,9 @@ header{
     }
   }
 }
+#sticky {
+  margin-bottom:1px;
+}
 .dark-light {
   right: -33px;
 }
@@ -2481,7 +2484,20 @@ header{
 .dark-light:focus {
   right: 0px !important;
 }
-
+.nav-link {
+  padding-top:5px !important;
+}
+.sub-arrow {
+  padding-top: 5px !important;
+  top:-5px!important;
+  margin-top:0px !important;
+}
+.toggle-nav {
+  padding-top: 0px!important;
+  padding-bottom:20px!important;
+  padding-right:25px!important;
+  text-align:end !important;
+}
 .cartHeaderImg {
   filter: none !important;
   -webkit-filter: none !important;
@@ -2515,6 +2531,49 @@ header{
   -o-transform:rotate(-15deg)!important;
   transform:rotate(-15deg)!important;
 }
+
+/* width */
+#cartPopOut::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+/* Track */
+#cartPopOut::-webkit-scrollbar-track {
+  background: #9a9a9a !important;
+}
+
+/* Handle */
+#cartPopOut::-webkit-scrollbar-thumb {
+  background: #2b2b2b !important;
+}
+
+/* Handle on hover */
+#cartPopOut::-webkit-scrollbar-thumb:hover {
+  background: black !important;
+}
+
+.quickActions {
+  background-color:black;
+}
+.quickActions:hover {
+  background-color:#1a1a1a;
+}
+.quickBuySize {
+  background-color:transparent;
+  cursor:pointer;
+}
+.quickBuySize:hover {
+  background-color:gray;
+}
+.popoutCartButtons {
+  background-color:transparent;
+  cursor:pointer;
+}
+.popoutCartButtons:hover {
+  background-color:gray;
+  cursor:pointer;
+}
+
 
 @media (max-width: 480px) {
   .brand-logo {
