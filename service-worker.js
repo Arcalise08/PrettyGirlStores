@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PrettyGirlStores/precache-manifest.d6d46e5d7ef7e7104e30678597740e34.js"
+  "/PrettyGirlStores/precache-manifest.314f94ab11f80fbb73c5a8c0040351e3.js"
 );
 
 workbox.clientsClaim();
