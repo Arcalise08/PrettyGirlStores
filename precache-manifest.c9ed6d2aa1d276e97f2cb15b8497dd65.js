@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6cfec9ea642275fa692d",
-    "url": "/PrettyGirlStores/static/css/main.8b2ccbee.chunk.css"
+    "revision": "0311626b9b0b93cbcb8a",
+    "url": "/PrettyGirlStores/static/css/main.cc30116d.chunk.css"
   },
   {
-    "revision": "6cfec9ea642275fa692d",
-    "url": "/PrettyGirlStores/static/js/main.6cfec9ea.chunk.js"
+    "revision": "0311626b9b0b93cbcb8a",
+    "url": "/PrettyGirlStores/static/js/main.0311626b.chunk.js"
   },
   {
     "revision": "36631b12b9988dcf3fe7",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/PrettyGirlStores/static/media/18.4e59f7c5.jpg"
   },
   {
-    "revision": "71564562c4866405e6a6ab6a26bbff89",
+    "revision": "7fe64903522f322cd7bd465d1feae0af",
     "url": "/PrettyGirlStores/index.html"
   }
 ];
