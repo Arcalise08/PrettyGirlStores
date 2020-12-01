@@ -807,7 +807,7 @@
   }
   .home-slider {
     .home {
-      height: 70vh;
+      height: 95vh;
     }
     .slider-contain {
       height: 70vh;
@@ -1300,6 +1300,20 @@
             background-color: $dark-top;
           }
         }
+      }
+    }
+  }
+}
+
+@media(max-width: 4000px) and (min-width: 2000px) {
+  .home-slider {
+    .home {
+      height: 170vh;
+    }
+    .slider-contain {
+      height: 70vh;
+      h1 {
+        font-size: 50px;
       }
     }
   }
