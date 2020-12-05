@@ -2195,6 +2195,8 @@ header{
     }
   }
 }
+
+
 @media (max-width: 991px) {
   .top-header {
     .header-contact {
@@ -2275,6 +2277,7 @@ header{
         position: fixed;
         bottom: 20px;
         right: 24%;
+        bottom:2%;
         font-size: 0;
         padding: 0;
         z-index: 9;
@@ -2299,6 +2302,7 @@ header{
       }
       .mobile-wishlist {
         right: 56%;
+        bottom:2%;
         i {
           font-family: $font-themify;
           color: $header-font !important;
@@ -2357,6 +2361,7 @@ header{
         }
         .mobile-cart {
           right: 42%;
+          bottom: 2.3%;
           .close-circle {
             i {
               font-size: 14px;
@@ -2374,7 +2379,8 @@ header{
           }
         }
         .mobile-search {
-          right: 75%;
+          right: 73%;
+          bottom:2%;
           z-index: 1;
           i {
             display: inline-block;
@@ -2550,13 +2556,18 @@ header{
 /* Handle on hover */
 #cartPopOut::-webkit-scrollbar-thumb:hover {
   background: black !important;
+
+}
+
+.main-navbar {
+  margin-top: 45px !important;
 }
 
 .quickActions {
-  background-color:black;
+  background-color:rgba(244, 166, 246, 0.83);
 }
 .quickActions:hover {
-  background-color:#1a1a1a;
+  background-color:rgba(244, 166, 246, 0.95);
 }
 .quickBuySize {
   background-color:transparent;
@@ -2573,7 +2584,20 @@ header{
   background-color:gray;
   cursor:pointer;
 }
-
+.specialProductsTitle:before {
+  position:absolute;
+  content: "";
+  height:1px;
+  background-color: #9a9a9a;
+  top:calc(50% - 0.5px);
+  left:0;
+  right:0;
+  width: 100%;
+}
+.react-multiple-carousel__arrow {
+  background-color:purple !important;
+  z-index: 5!important;
+}
 
 @media (max-width: 480px) {
   .brand-logo {
